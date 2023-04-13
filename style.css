@@ -1,0 +1,486 @@
+* {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*! Takım !*/
+
+.header-bg {
+    width: 100%;
+    background: linear-gradient(rgba(0, 4, 41, 0.5), rgba(0, 1, 49, 0.733)), url("img/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main {
+    padding-top: 70px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.nav-item .nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 35px;
+}
+
+.nav-item .nav-link:hover {
+    color: #A1A1A1;
+}
+
+.dil {
+    font-size: 11px;
+}
+
+.menu-left ul li {
+    color: #A1A1A1;
+    font-weight: bold;
+}
+
+.menu-left ul li:hover {
+    color: rgb(136, 0, 0);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.search h6 {
+    font-weight: bold;
+    color: rgb(136, 0, 0);
+    font-size: 14px;
+}
+
+.search input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.search ::placeholder {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.search select {
+    width: 100%;
+    height: 3rem;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding-left: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6b6b6b;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.header-end {
+    padding-top: 140px;
+}
+
+.ara {
+    padding: 5px 15px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #A1A1A1;
+    color: #A1A1A1;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ara:hover {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-bottom: 1px solid #A1A1A1;
+    color: #ffffff;
+    font-size: 15px;
+    transition-duration: .5s;
+}
+
+.ara-btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.alphabetic h6 {
+    font-weight: bold;
+    color: rgb(136, 0, 0);
+    font-size: 14px;
+}
+
+.alphabetic a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-right: 6px;
+}
+
+.alphabetic a:hover {
+    color: rgb(136, 0, 0);
+}
+
+.footer {
+    width: 100%;
+    background-color: #000722;
+    margin-top: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    padding-right: 50px;
+}
+
+.footer li {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.footer h5 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    font-weight: bold;
+}
+
+.form-control{
+    border-radius: 0;
+    border-color: white;
+    color: white;
+    background-color: #010020;
+    font-size: 12px;
+    padding: 6px 14px;
+}
+
+.footer .btn{
+    border-color: white;
+    color: white;
+    font-size: 12px;
+    border-radius: 0;
+    font-weight: bold;
+    padding: 8px 20px;
+    transition: all;
+}
+
+.footer .btn:hover{
+    background-color: white;
+    color: #010020;
+    transition-duration: .5s;
+}
+
+.irtibat{
+    margin-bottom: 30px;
+}
+
+.social svg{
+margin: 0px 30px;
+}
+
+.social p{
+    font-weight: normal;
+}
+
+.avukat{
+    padding: 0px 20px;
+    margin-bottom: 60px;
+}
+
+.avukat h3{
+    padding: 30px 0px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.avukat h6{
+    font-size: 15px;
+}
+
+/*! index !*/
+
+.header-bg-index{
+    background:linear-gradient(rgba(0, 4, 41, 0.658), rgba(0, 1, 49, 0.664)), url("img/bina.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center !important;
+}
+
+.header-content{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.index-sec1{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding:80px 0px;
+}
+
+.index-sec1 h5{
+    font-weight: bold;
+    color: rgb(99, 0, 0);
+}
+
+.index-sec1 p{
+    font-size: 14px;
+}
+
+.footer2 {
+    width: 100%;
+    background-color: #000722;
+    margin-top: px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.footer2 ul {
+    list-style: none;
+    padding: 0;
+    padding-right: 50px;
+}
+
+.footer2 li {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.footer2 h5 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer2 p{
+    font-weight: bold;
+}
+
+.footer2 .btn{
+    border-color: white;
+    color: white;
+    font-size: 12px;
+    border-radius: 0;
+    font-weight: bold;
+    padding: 8px 20px;
+    transition: all;
+}
+
+.footer2 .btn:hover{
+    background-color: white;
+    color: #010020;
+    transition-duration: .5s;
+}
+
+.index-sec2{
+    background:linear-gradient(rgba(0, 4, 41, 0.658), rgba(0, 1, 49, 0.664)), url("img/bina2.jpg");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:80px 0px;
+    color: white;
+}
+
+.index-sec2 p{
+    font-size: 14px;
+}
+
+.btn2{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    color: rgb(184, 184, 184);
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.btn2:hover{
+    background: white;
+    color: rgb(0, 0, 0);
+    transition-duration: .5s;
+}
+
+.index-sec3 h5{
+    font-weight: bold;
+    color: rgb(138, 0, 0);
+    margin: 10px 0px;
+}
+
+.index-sec3 h4{
+    font-size: 11px;
+    color: #6b6b6b;
+    margin: 30px 0px;
+}
+
+.index-sec3 p{
+    font-size: 14px;
+}
+
+.index-sec3 h6{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header-bg-info{
+    background:linear-gradient(rgba(0, 4, 41, 0.658), rgba(0, 1, 49, 0.664)), url("img/ruhsat.jpeg");
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-content2{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.info-sec1{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding:60px 0px;
+}
+
+.info-sec1 h5{
+    font-weight: bold;
+    color: rgb(99, 0, 0);
+    font-size: 20px;
+}
+
+.info-sec1 p{
+    font-size: 15px;
+}
+
+.info-sec1 ul{
+    justify-content: space-around;
+    padding: 0px 60px;
+}
+
+.info-sec1 li{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.info-sec1 li:hover{
+    color: rgb(99, 0, 0);
+}
+
+.index-sec3{
+    background:linear-gradient(rgba(0, 4, 41, 0.658), rgba(0, 1, 49, 0.664)), url("img/salon.jpeg");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:80px 0px;
+    color: white;
+}
+
+.index-sec3 p{
+    font-size: 14px;
+}
+
+.index-sec3 h5{
+    color: white;
+}
+
+@media screen and (max-width:415px) {
+    .avukat h3{
+        padding: 10px 0px;
+        font-size: 10px;
+        font-weight: bold;
+        margin: 0;
+    }
+    .avukat{
+        margin-bottom: 12px;
+    }
+    
+    .avukat h6{
+        font-size: 8px;
+    }
+
+    .menu-left{
+        font-size: 12px;
+    }
+    .avukalar{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .search h6{
+        font-size: 11px;
+    }
+
+    .search select{
+        font-size: 8px;
+        padding: 0;
+    }
+
+    .search ::placeholder {
+        font-size: 8px;
+        padding-left: 0px;
+    }
+
+    .search input{
+        padding: 0;
+    }
+
+    .menu-left{
+        padding: 0;
+    }
+
+    .alphabetic h6 {
+        font-weight: bold;
+        color: rgb(136, 0, 0);
+        font-size: 10px;
+    }
+    
+    .alphabetic a {
+        text-decoration: none;
+        font-size: 8px;
+        font-weight: bold;
+        color: black;
+        margin-right: 6px;
+    }
+    .social p{
+        margin-top: 20px;
+    }
+
+    .index-sec3 h4{
+        font-size: 5px;
+        color: #6b6b6b;
+        margin: 10px 0px;
+    }
+    
+    .index-sec3 p{
+        font-size: 8px;
+    }
+    
+    .index-sec3 h6{
+        font-weight: bold;
+        margin-bottom: 8px;
+        font-size: 9px;
+    }
+
+    .footer2 h5{
+        color: rgb(163, 138, 100);
+    }
+}
